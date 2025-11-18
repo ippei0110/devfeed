@@ -1,0 +1,246 @@
+{
+  "updated_at": "2025-11-18T14:12:20.509313",
+  "total": 30,
+  "articles": [
+    {
+      "id": "qiita_8ef85df0edc624be6eaf",
+      "title": "AWS認定試験結果発表時間について",
+      "url": "https://qiita.com/yama3133/items/8ef85df0edc624be6eaf",
+      "source": "Qiita",
+      "publishedAt": "2025-11-18",
+      "description": "## はじめに\n\n今までAWSだけでなくLPIC、Azure、Salesforceと試験を受けてきましたが、果たして結果がわかるのはいつなの？という疑問はあると思います。\nそこで私の今までの経験則でしかありませんが、結果発表時間等について、試験を受けてきた中でわかったことを挙げていきます。\n\n## ..."
+    },
+    {
+      "id": "qiita_28cb72dfe1b648f1f527",
+      "title": "学びto（自動化）",
+      "url": "https://qiita.com/ssvra/items/28cb72dfe1b648f1f527",
+      "source": "Qiita",
+      "publishedAt": "2025-11-18",
+      "description": "### 背景\n\n体力よりも「仕組み」で効率を出すことが重要だと実感するようになりました。仕事だけでなく家事・学習・趣味など、プライベートでもやりたいことが多い一方、時間は増えません。そこで個人的に興味を持ったのが、「生活のDX（自動化）」です。\n\n 注目したものと着目点\n\n特に注目したのは、ノーコー..."
+    },
+    {
+      "id": "qiita_c56928c0fac407ea2d0e",
+      "title": "初心者向けMVCとは何か？なぜ学ぶべきか（Rails編）",
+      "url": "https://qiita.com/chaaaaa_m/items/c56928c0fac407ea2d0e",
+      "source": "Qiita",
+      "publishedAt": "2025-11-18",
+      "description": "# 初心者向けMVCとは何か？そしてMVCをなぜ学ぶべきか  \n\nWebアプリケーション開発で広く用いられている設計パターンの一つにMVC（モデル・ビュー・コントローラ）があります。これはアプリケーションを「モデル」「ビュー」「コントローラ」の3つの役割に分けることで、責務を明確にし、保守性や再利用..."
+    },
+    {
+      "id": "qiita_eea726f9fe154ccc1389",
+      "title": "paiza.ioでruby その5",
+      "url": "https://qiita.com/ohisama@github/items/eea726f9fe154ccc1389",
+      "source": "Qiita",
+      "publishedAt": "2025-11-18",
+      "description": "# 概要\npaiza.ioでrubyやってみた。\natcoder、見つけたのでやってみた。\n\n# 参考にしたページ\n\nhttps://qiita.com/cielavenir/items/c0a45b6b87c411b60b93\n\n# 練習問題\nABC 086 A - Product\n2つの整数値を..."
+    },
+    {
+      "id": "qiita_f0487e26e3512622f3f5",
+      "title": "paiza.ioでruby その4",
+      "url": "https://qiita.com/ohisama@github/items/f0487e26e3512622f3f5",
+      "source": "Qiita",
+      "publishedAt": "2025-11-18",
+      "description": "# 概要\npaiza.ioでrubyやってみた。\natcoder、見つけたのでやってみた。\n\n# 参考にしたページ\n\nhttps://qiita.com/cielavenir/items/c0a45b6b87c411b60b93\n\n# 練習問題\nPracticeA - Welcome to AtCo..."
+    },
+    {
+      "id": "qiita_d913f58d7e399740c852",
+      "title": "【SpringBoot】【SpringSecurity】ログイン画面の簡易実装（CSRF＋BCrypt）",
+      "url": "https://qiita.com/10sya/items/d913f58d7e399740c852",
+      "source": "Qiita",
+      "publishedAt": "2025-11-18",
+      "description": "## 環境\n\nWindows 11\nIntelliJ IDEA 2025.2 無料版\nJava 21\nSpring Boot 3.3.4\nPostgreSQL 16.10\nbootstrap 5.3.3\nThymeleaf\n\n## サンプルコード\n\n認証機能付きのログイン画面は以下のように実装します..."
+    },
+    {
+      "id": "qiita_fec0af1814cd3ea785ad",
+      "title": "【解説記事】ML-KEM Security Considerations が気になったので読んでみた",
+      "url": "https://qiita.com/satokan3/items/fec0af1814cd3ea785ad",
+      "source": "Qiita",
+      "publishedAt": "2025-11-18",
+      "description": "こんにちは〜、GMOコネクトでCTOの菅野 哲（かんの さとる）です。\n11月17日の日刊IETFで紹介された「ML-KEM Security Considerations」について読んでみました。\n気になった方や知らなかったという人は、日刊IETFを読んでみてね！\n\nhttps://qiita.c..."
+    },
+    {
+      "id": "qiita_433a0bda43758225d22f",
+      "title": "家事や学習管理をスマートにする",
+      "url": "https://qiita.com/sosiiinn/items/433a0bda43758225d22f",
+      "source": "Qiita",
+      "publishedAt": "2025-11-18",
+      "description": "## 本文\n\n30代に入り、仕事以外の時間をもっと有効に使いたいと考え、家事や学習管理をDXしてみました。買い物リストはGoogleフォームで入力し、スプレッドシートに自動集約。さらにPower Automateで在庫通知、週次の献立案をTeamsに自動送信する仕組みを作成。家計簿はAPI連携のある..."
+    },
+    {
+      "id": "qiita_7a916b613a014b08b0da",
+      "title": "PowerShellの実行ポリシーの問題を解決する",
+      "url": "https://qiita.com/ochx/items/7a916b613a014b08b0da",
+      "source": "Qiita",
+      "publishedAt": "2025-11-18",
+      "description": "# はじめに\n## ひとこと\nアクセスしていただきありがとうございます。\nPythonをメインとしていない筆者が、Pythonで簡単なアプリを開発したときにPowerShellの実行ポリシーでつまずき、また偶然にも同じ問題に遭遇している人から質問されたので、記事にまとめます。\n\n## 目的\n+ Po..."
+    },
+    {
+      "id": "qiita_8378a0703e1cc6f88064",
+      "title": "私の【Excel】案",
+      "url": "https://qiita.com/gregle/items/8378a0703e1cc6f88064",
+      "source": "Qiita",
+      "publishedAt": "2025-11-18",
+      "description": "私は入社したばかりの事務職ですが、もしExcel業務をDX化するなら、まずは関数やピボットで手作業の集計を自動化し、誰でも更新できる仕組みにします。さらに、入力フォームを用意してデータの転記をなくし、Power Automateで日報や報告書を自動生成できるようにします。属人化した神エクセルを「誰が..."
+    },
+    {
+      "id": "hatena_4920993058925334084",
+      "title": "AIから話しかけてほしい！こっちから話さなきゃいけないのヤダ！",
+      "url": "https://anond.hatelabo.jp/20251116232014",
+      "source": "はてなブログ",
+      "publishedAt": "2025-11-18",
+      "description": "「増田さん！元気がなさそうですが、大丈夫ですか？」とか言われたい！ なんでこっちから話しかけないと始まらないんだよ！！ こっちの様子をそっちから伺ってよ！！ もっと労わってよ！ うわわーーん！！"
+    },
+    {
+      "id": "hatena_4643491132778602486",
+      "title": "BtoBにおけるフォーム入力者の76.9%が途中で離脱する原因は、運営者の「削れない項目」にあった | Coneのコンテンツ制作所",
+      "url": "https://cone-c-slide.com/see-sla/blog/btobform-dropout-reason-solution/",
+      "source": "はてなブログ",
+      "publishedAt": "2025-11-18",
+      "description": "【フォーム入力経験者】離脱理由や入力をためらう項目 BtoBマーケティングにおいて、「フォームを最後まで入力してもらえるかどうか」は、リード獲得成果を左右する重要な分岐点です。いくら広告やコンテンツで興味を引いても、フォーム入力の段階で離脱されてしまえば、商談につながるチャンスを逃すことになります。 ..."
+    },
+    {
+      "id": "hatena_7786267745861012266",
+      "title": "GPUに負荷をかけず、15.6型フルHDを最大4画面まで拡張できる外付けモニター",
+      "url": "https://pc.watch.impress.co.jp/docs/news/2064134.html",
+      "source": "はてなブログ",
+      "publishedAt": "2025-11-18",
+      "description": ""
+    },
+    {
+      "id": "zenn_bcbfa198e1a059",
+      "title": "作って学ぶ ChatGPT Atlas",
+      "url": "https://zenn.dev/layerx/articles/bcbfa198e1a059",
+      "source": "Zenn",
+      "publishedAt": "2025-11-17",
+      "description": "これは LayerX AI Agent ブログリレー の47日目の記事です。前回は澁井さんの 「AIエージェントで「不要な過去を忘れる」」 でした。明日はバナナ好きで社内で有名なKentaさんがEvalに関する実用的なブログを書いてくれるはずです🍌 こんにちは、公私共にBet AIしたいTomoaki（@tapioca_pudd）です。 みなさんは、どのブラウザをお使いでしょうか？ The Bro..."
+    },
+    {
+      "id": "zenn_d492ad7b0aee25",
+      "title": "BTCONJP2025_ミニセッションと参加レポート",
+      "url": "https://zenn.dev/genda_jp/articles/d492ad7b0aee25",
+      "source": "Zenn",
+      "publishedAt": "2025-11-17",
+      "description": "エッサホイサ伸び代ですね！ BTCONJP2025でミニセッションでお話しさせていただきましたGENDAのケンシロウです https://btcon.jp/ ミニセッションは配信は無かったのでこちらでも公開しておきます これを書いている最中にも見れなかった配信は追っていますので、 セッションのレポというよりは個人的に色々な方と会話した内容のまとめてきな感じになります！ 目次 1.ミニセッションの内..."
+    },
+    {
+      "id": "zenn_a80959e01d62fd",
+      "title": "シミュレーションコンペで銅メダル2つを獲得してkaggle Expertになった方法",
+      "url": "https://zenn.dev/epicai_techblog/articles/a80959e01d62fd",
+      "source": "Zenn",
+      "publishedAt": "2025-11-17",
+      "description": "はじめに kaggleで開催されたチェスコンペと強化学習コンペに参加し、銅メダルを獲得しました。 これらのコンペは、シミュレーションコンペと呼ばれるコンペであり、通常のコンペとは異なります。通常のコンペに比べて、シミュレーションコンペの方が初心者の方やAIに慣れていない方はメダルを獲りやすいと思います。本記事では、その理由やコンペで取り組んだ内容を振り返りながら紹介します。 シミュレーションコンペ..."
+    },
+    {
+      "id": "zenn_d41ddd33f08d89",
+      "title": "鉄鋼業界のAI検収システムのデータ変換モジュールについて",
+      "url": "https://zenn.dev/eversteel_tech/articles/d41ddd33f08d89",
+      "source": "Zenn",
+      "publishedAt": "2025-11-17",
+      "description": "注記：本記事に記載されているトラック番号、検収員コード、等級コードなどの具体的な値は、すべて説明用のサンプルデータです。実際の顧客データは一切使用していません。また、記事内のkey名は当社システムで管理している実際のキー（公開可能な範囲）、またはサンプルキーを使用しています。 TL;DR 鉄鋼業界では、各工場が独自のスクラップ管理システムを運用しており、鉄ナビ検収AIと連携する際にデータフォーマッ..."
+    },
+    {
+      "id": "zenn_8e1ba228b64dbf",
+      "title": "作って学ぶAsync Rust",
+      "url": "https://zenn.dev/maetin/books/8e1ba228b64dbf",
+      "source": "Zenn",
+      "publishedAt": "2025-11-17",
+      "description": "Rust非同期ランタイムを自作することで非同期処理そのものへの理解を深めることを目的とした本"
+    },
+    {
+      "id": "zenn_codebase-transformation",
+      "title": "600ファイル5000箇所の多言語対応を半日で終わらせた話",
+      "url": "https://zenn.dev/dress_code/articles/codebase-transformation",
+      "source": "Zenn",
+      "publishedAt": "2025-11-17",
+      "description": "TL;DR 約600ファイル、5,000箇所への中国語追加を「工程分割 + AST 解析」により計6時間（実装4時間、実行2時間）で完了 AI にファイル単位で処理させると無駄な再計算が発生して非効率だったため、「抽出」「翻訳」「適用」の3工程に分割し AST 解析で効率化を実現 この手法の鍵は「コンテキストの制御」で、適切な粒度で問題を分割し AI に必要最小限の情報だけを渡すことで処理速度と精..."
+    },
+    {
+      "id": "zenn_eac471f2304863",
+      "title": "あなたもクソコードの世界に触れてみませんか？？ - 逆リファクタリングバトルのイベント報告 -",
+      "url": "https://zenn.dev/smartcamp/articles/eac471f2304863",
+      "source": "Zenn",
+      "publishedAt": "2025-11-17",
+      "description": "「コードは綺麗に書くべき」 そんな呪いにかかっていませんか？ 「可読性が正義」「保守性が命」 確かにその通り。 でも、そこに縛られすぎて“自由に書く楽しさ”を忘れていないでしょうか。 コードなんて、本来もっと遊んでいい。 ときには破壊的に、意味不明に、カオスな方向へ振り切ってみてもいい。 今日はその逆方向へ思いっきり振り切る遊び「逆リファクタリングバトル」というイベントをしたので、その内容を共有し..."
+    },
+    {
+      "id": "zenn_cf330b6044cd49",
+      "title": "Linuxで顔認証するPAMモジュール chissu-pam を作った",
+      "url": "https://zenn.dev/sett4/articles/cf330b6044cd49",
+      "source": "Zenn",
+      "publishedAt": "2025-11-17",
+      "description": "これは何? 毎回 sudo やロックスクリーン解除でパスワードを打つのが面倒なので、顔認証の PAM モジュールを自作した話です。Linux Desktop の顔認証といえば Howdy が定番ですが、あえて chissu-pam を作った理由も含めてまとめました。名前の由来は Windows Hello → 日本語のちぃ〜っす → Chissu という流れです。 Mac なら Touch ID、..."
+    },
+    {
+      "id": "zenn_2025-11-17-react-strands-agents",
+      "title": "ReAct 論文と共に読み解く strands-agents/sdk-python の実装",
+      "url": "https://zenn.dev/aws_japan/articles/2025-11-17-react-strands-agents",
+      "source": "Zenn",
+      "publishedAt": "2025-11-17",
+      "description": "こんにちは、AWS Japan で Solutions Architect をしている yoheikikuta です。 2025 年は AI エージェントの開発が盛んになっており、多くの人が何かしらの AI エージェントを作ってみたことがあるのではないでしょうか。 一方で、LLM を用いたエージェントとしてどのような枠組みに基づいて効果的に振る舞っているのか、その枠組みがどのように実装されているの..."
+    },
+    {
+      "id": "hatena_3681595112448638464",
+      "title": "「補給」や「戦力回復」がわからない、牟田口廉也のような親がいる",
+      "url": "https://blog.tinect.jp/?p=90493",
+      "source": "はてなブログ",
+      "publishedAt": "2025-11-17",
+      "description": "少し前のbooks&appsで、桃野泰徳さんが「娯楽も遊びも休息も、仕事の一部」という記事を書いてらしたのを覚えているだろうか。 私はよく覚えている。なぜなら働いていくうえでとても重要な考えだと思うからだ。 機械にメンテナンスが必要なのと同じく、人間には娯楽や遊びや休息が、つまり桃野さんの記事でいう「戦力回..."
+    },
+    {
+      "id": "hatena_1417211711654070123",
+      "title": "「6桁のワンタイムパスワードは同じ数字が並ぶことが多い」という直感は正しいか？",
+      "url": "https://zenn.dev/ukitaka/articles/468d418a5dd8fa",
+      "source": "はてなブログ",
+      "publishedAt": "2025-11-17",
+      "description": "2要素認証などでよくみる6桁のワンタイムパスワードですが、個人的に何となく気になっていることがありました。 それは 同じ数字が並ぶことが多いな と感じるということです。 この記事では 「同じ数字が並ぶ」という直感が正しいのか？ 何かの目的 (例: 入力を楽にする) があってこうなっているのか？ ワンタイムパスワ..."
+    },
+    {
+      "id": "hatena_55295330727898952",
+      "title": "クラウドインフラのシェア、AWSが再び30％を切って29％に。Googleが13％へと成長。2025年第3四半期、Synergy Researchの調査結果",
+      "url": "https://www.publickey1.jp/blog/25/aws3029google1320253synergy_research.html",
+      "source": "はてなブログ",
+      "publishedAt": "2025-11-17",
+      "description": "クラウドインフラのシェア、AWSが再び30％を切って29％に。Googleが13％へと成長。2025年第3四半期、Synergy Researchの調査結果 調査会社のSynergy Research Groupは、グローバルにおける2025年第3四半期のクラウドインフラの市場状況について調査結果を発表しました。 クラウドインフラとは、IaaS、PaaS、ホステッドプ..."
+    },
+    {
+      "id": "hatena_5037468398112052532",
+      "title": "AIに賭けるDeNA、データガバナンスで安心・安全を",
+      "url": "https://mag.executive.itmedia.co.jp/executive/articles/2509/30/news031.html",
+      "source": "はてなブログ",
+      "publishedAt": "2025-11-17",
+      "description": "四半世紀前に創業したDeNAは現在、第2の創業と位置づけ、AIにオールインすることを宣言、AIを軸にしたさまざまな戦略を進める中、安心・安全なAI活用を支えるべく、データガバナンスに取り組んでいる。 「一人ひとりに 想像を超えるDelightを」というミッションに基づき、ゲームをはじめ、ライブコミュニティ、スポーツ..."
+    },
+    {
+      "id": "hatena_921920895279058795",
+      "title": "最近「無意味にフォント小さい案内板」が多すぎない？案内板が必要な時って、焦っていて視野や判断力が鈍っている時でしょ",
+      "url": "https://togetter.com/li/2629134",
+      "source": "はてなブログ",
+      "publishedAt": "2025-11-17",
+      "description": "最近、案内板の文字が不必要に小さく細くなり視認性が低下。特に眠気や視力問題の時に駅名が判別しづらく、安全･利便性を損なう。案内は意匠より可読性重視で、字体とサイズを堂々と見直すべき。"
+    },
+    {
+      "id": "hatena_5394735929444378289",
+      "title": "ネットワーク機器・VPN機器の脆弱性や設定不備を悪用したネットワーク貫通型攻撃にIPAが注意喚起　パッチ適用、不要な外部公開の見直しなどを呼びかけ",
+      "url": "https://internet.watch.impress.co.jp/docs/news/2063814.html",
+      "source": "はてなブログ",
+      "publishedAt": "2025-11-17",
+      "description": ""
+    },
+    {
+      "id": "hatena_554548466832047044",
+      "title": "4ヶ月で電子契約サービスを立ち上げた",
+      "url": "https://zenn.dev/tychy/articles/c4b1c1f4d42f78",
+      "source": "はてなブログ",
+      "publishedAt": "2025-11-17",
+      "description": "先日、OpenSignという電子契約サービスを公開しました。 サービスの構想から公開まで約４ヶ月、ほぼすべての修正をCoding Agent経由で行いました。最初の１週間で概ね形になったものをお客様に売れるレベルに引き上げるのに、残りの（ほぼ）４ヶ月が必要だったという感覚でした。 AI時代に小さな会社が新規サービスを立..."
+    },
+    {
+      "id": "zenn_c4b1c1f4d42f78",
+      "title": "4ヶ月で電子契約サービスを立ち上げた",
+      "url": "https://zenn.dev/tychy/articles/c4b1c1f4d42f78",
+      "source": "Zenn",
+      "publishedAt": "2025-11-16",
+      "description": "先日、OpenSignという電子契約サービスを公開しました。 サービスの構想から公開まで約４ヶ月、ほぼすべての修正をCoding Agent経由で行いました。最初の１週間で概ね形になったものをお客様に売れるレベルに引き上げるのに、残りの（ほぼ）４ヶ月が必要だったという感覚でした。 AI時代に小さな会社が新規サービスを立ち上げた振り返りを書いていきます。 2025/07/10 自分の課題を解決する ..."
+    }
+  ]
+}
