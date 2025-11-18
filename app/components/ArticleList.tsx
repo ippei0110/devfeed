@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useMemo, useState } from "react";
 
 // 記事の型定義
 interface Article {
@@ -21,12 +21,31 @@ type FilterType = "すべて" | "Zenn" | "Qiita" | "はてなブログ";
 
 export default function ArticleList({ articles, updatedAt }: ArticleListProps) {
   const [selectedFilter, setSelectedFilter] = useState<FilterType>("すべて");
+  const [searchTerm, setSearchTerm] = useState("");
+
+  const normalizedKeyword = searchTerm.trim().toLowerCase();
 
   // フィルタリングされた記事
-  const filteredArticles =
-    selectedFilter === "すべて"
-      ? articles
-      : articles.filter((article) => article.source === selectedFilter);
+  const filteredArticles = useMemo(() => {
+    const filteredBySource =
+      selectedFilter === "すべて"
+        ? articles
+        : articles.filter((article) => article.source === selectedFilter);
+
+    if (!normalizedKeyword) {
+      return filteredBySource;
+    }
+
+    return filteredBySource.filter((article) => {
+      const inTitle = article.title.toLowerCase().includes(normalizedKeyword);
+      const inDescription = article.description
+        ?.toLowerCase()
+        .includes(normalizedKeyword);
+      const inSource = article.source.toLowerCase().includes(normalizedKeyword);
+
+      return inTitle || inDescription || inSource;
+    });
+  }, [articles, normalizedKeyword, selectedFilter]);
 
   // 各ソースの記事数をカウント
   const counts = {
@@ -40,8 +59,8 @@ export default function ArticleList({ articles, updatedAt }: ArticleListProps) {
 
   return (
     <>
-      {/* フィルターセクション */}
-      <div className="mb-8">
+      {/* フィルター & 検索セクション */}
+      <div className="mb-8 space-y-4">
         <div className="flex gap-2 flex-wrap">
           {filters.map((filter) => (
             <button
@@ -59,6 +78,28 @@ export default function ArticleList({ articles, updatedAt }: ArticleListProps) {
               </span>
             </button>
           ))}
+        </div>
+        <div className="relative">
+          <label htmlFor="article-search" className="sr-only">
+            記事検索
+          </label>
+          <input
+            id="article-search"
+            type="search"
+            placeholder="キーワードで記事を検索 (タイトル / 説明 / ソース)"
+            value={searchTerm}
+            onChange={(event) => setSearchTerm(event.target.value)}
+            className="w-full rounded-lg border border-zinc-200 dark:border-zinc-700 bg-white dark:bg-zinc-800 px-4 py-3 text-sm text-zinc-900 dark:text-zinc-50 placeholder:text-zinc-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          />
+          {!!searchTerm && (
+            <button
+              type="button"
+              onClick={() => setSearchTerm("")}
+              className="absolute inset-y-0 right-3 flex items-center text-zinc-400 hover:text-zinc-600 dark:hover:text-zinc-200 text-sm"
+            >
+              クリア
+            </button>
+          )}
         </div>
       </div>
 
