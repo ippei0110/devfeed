@@ -1,4 +1,6 @@
 import ArticleList from "./components/ArticleList";
+import fs from "fs";
+import path from "path";
 
 // 記事の型定義
 interface Article {
@@ -16,27 +18,26 @@ interface ArticlesData {
   articles: Article[];
 }
 
-// APIから記事を取得する関数
-async function getArticles(): Promise<ArticlesData> {
+// JSONファイルから直接記事を取得する関数
+function getArticles(): ArticlesData {
   try {
-    // Vercel環境では VERCEL_URL、それ以外では localhost を使用
-    const baseUrl = process.env.VERCEL_URL 
-      ? `https://${process.env.VERCEL_URL}` 
-      : "http://localhost:3000";
-    
-    const res = await fetch(`${baseUrl}/api/articles`, {
-      // Server Componentでは cache オプションを使用
-      cache: "no-store", // リロードのたびに最新データを取得
-    });
+    const filePath = path.join(process.cwd(), "data", "articles.json");
 
-    if (!res.ok) {
-      throw new Error("Failed to fetch articles");
+    // ファイルの存在確認
+    if (!fs.existsSync(filePath)) {
+      return {
+        updated_at: new Date().toISOString(),
+        total: 0,
+        articles: [],
+      };
     }
 
-    return res.json();
+    const fileContent = fs.readFileSync(filePath, "utf-8");
+    const data: ArticlesData = JSON.parse(fileContent);
+
+    return data;
   } catch (error) {
-    console.error("Error fetching articles:", error);
-    // エラー時は空のデータを返す
+    console.error("Error reading articles:", error);
     return {
       updated_at: new Date().toISOString(),
       total: 0,
@@ -45,9 +46,9 @@ async function getArticles(): Promise<ArticlesData> {
   }
 }
 
-export default async function Home() {
-  // Server Componentでデータを取得
-  const data = await getArticles();
+export default function Home() {
+  // Server ComponentでJSONファイルから直接データを取得
+  const data = getArticles();
   return (
     <div className="min-h-screen bg-zinc-50 dark:bg-zinc-900">
       {/* ヘッダー */}
