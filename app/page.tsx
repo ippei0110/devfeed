@@ -19,8 +19,11 @@ interface ArticlesData {
 // APIから記事を取得する関数
 async function getArticles(): Promise<ArticlesData> {
   try {
-    // 開発環境では localhost、本番環境では vercel のURLを使用
-    const baseUrl = process.env.NEXT_PUBLIC_API_URL || "http://localhost:3000";
+    // Vercel環境では VERCEL_URL、それ以外では localhost を使用
+    const baseUrl = process.env.VERCEL_URL 
+      ? `https://${process.env.VERCEL_URL}` 
+      : "http://localhost:3000";
+    
     const res = await fetch(`${baseUrl}/api/articles`, {
       // Server Componentでは cache オプションを使用
       cache: "no-store", // リロードのたびに最新データを取得
